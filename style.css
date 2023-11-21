@@ -1,0 +1,90 @@
+/* Add padding to body for smaller screens */
+body {
+ padding:50px;
+ padding-left: 100px;
+ font-family: Arial, sans-serif;
+ background-image: url(/imgBack/imgB.jpg);
+}
+
+/* The container for the login form */
+.container {
+ width: 300px;
+ height: 500px;
+ padding: 20px;
+ background-color: white;
+ margin: 0 auto;
+ margin-top: 80px;
+ margin-right: 50px;
+ border: 1px solid #ddd;
+ border-radius: 15px;
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ width: 250px;
+ padding: 15px;
+ margin-left: 25px;
+ margin: 50px 0px 2px 10;
+ border: none;
+ background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+/* Set a style for the submit button */
+button {
+    font-size: large;
+    background-color:rgb(255,204,51);
+    color: white;
+    padding: 13px 20px;
+    margin: 40px 0;
+    border: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+}
+.loginAlign{
+    display: flex;
+    justify-content: center;
+}
+
+.imgCorner{
+    position: fixed;
+    top: 100px;
+    left: 200px;
+}
+
+.fontCol{
+    position: absolutes;
+    padding-top: 110px;
+    text-align: center;
+    color: rgb(232, 10, 232);
+}
+.fontColinline{
+    color: white;
+}
+.fontColinline2{
+    padding-left: 20px;
+    font-size: smaller;
+    margin: 10px ;
+    color: gray;
+}
+/* img back class */
+
+.imgback{
+    background-position: center;
+    background: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+button:hover {
+ opacity:1;
+}
